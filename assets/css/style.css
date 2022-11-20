@@ -9,6 +9,12 @@ body {
     background-color: #d9dcd6; /* set the background color to white */
 }
 
+
+/* 
+###########
+        start heading from here
+##########
+*/
 .header {
     padding: 20px;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
@@ -42,15 +48,23 @@ body {
     margin-left: 25px;
 }
 
+/* 
+###########
+        end heading here
+##########
+*/
+
+
+/* anchor element selector*/
 a {
-    color: #ffffff;
+    color: #ffffff; /*all a element set white color */
     text-decoration: none;
 }
-
+/* paragraph element selector*/
 p {
-    font-size: 16px;
+    font-size: 16px; /*all p element set font size */
 }
-
+/*Background image set here */
 .hero {
     height: 800px;
     width: 100%;
@@ -59,12 +73,12 @@ p {
     background-size: cover;
     background-position: center;
 }
-
+/* float-left_class_selector*/
 .float-left {
     float: left;
     margin-right: 25px;
 }
-
+/* float-right_class_selector*/
 .float-right {
     float: right;
     margin-left: 25px;
@@ -75,6 +89,8 @@ p {
     display: inline-block;
     margin-left: 20px;
 }
+
+/*side bar section start from here*/
 
 .benefits {
     margin-right: 20px;
@@ -88,12 +104,14 @@ p {
 }
 
 #side_bar {
+    /*** set bottom margin to 32px*/
     margin-bottom: 32px;
     color: #ffffff;
 }
 
 
 #side_bar h3 {
+    /*** set bottom margin to 10px*/
     margin-bottom: 10px;
     text-align: center;
 }
@@ -106,8 +124,7 @@ p {
 }
 
 
-
-
+/****blue box section start from here ******/
 
 #blue_box {
     margin-bottom: 20px;
