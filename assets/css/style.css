@@ -4,7 +4,7 @@
     padding: 0;
     margin: 0;
 }
-/* select all of that element type*/
+/* Element Selectors select all of that element type */
 body {
     background-color: #d9dcd6; /* set the background color to white */
 }
@@ -15,34 +15,44 @@ body {
         start heading from here
 ##########
 */
+
+/* Header Class Selectors select all elements with that class */
 .header {
     padding: 20px;
+     /* Font-family property specifies a list of fonts to be used in order of priority */
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     background-color: #2a607c;
     color: #ffffff;
 }
 
+/* Header h1 Class Selectors select all elements with that class */
 .header h1 {
     display: inline-block;
+    /* Font-size property sets the size of a font */
     font-size: 48px;
 }
 
+
+/* Header h1 seo Class Selectors select all elements with that class */
 .header h1 .seo {
     color: #d9dcd6;
 }
 
+/* Header div Class Selectors select all elements with that class */
 .header div {
     padding-top: 15px;
     margin-right: 20px;
     float: right;
+     /* Font-family property specifies a list of fonts to be used in order of priority */
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    /* Font-size property sets the size of a font */
     font-size: 20px;
 }
-
+/* Header div ul Class Selectors select all elements with that class */
 .header div ul {
     list-style-type: none;
 }
-
+/* Header div ul li Class Selectors select all elements with that class */
 .header div ul li {
     display: inline-block;
     margin-left: 25px;
@@ -62,14 +72,16 @@ a {
 }
 /* paragraph element selector*/
 p {
-    font-size: 16px; /*all p element set font size */
+    font-size: 16px;   /* Font-size property sets the size of a font */
 }
-/*Background image set here */
+
+/* hero Class Selectors select all elements with that class */
 .hero {
     height: 800px;
     width: 100%;
     margin-bottom: 25px;
-    background-image: url("../images/digital-marketing-meeting.jpg");
+    /*Background image set here */
+    background-image: url("../images/digital-marketing-meeting.jpg"); 
     background-size: cover;
     background-position: center;
 }
@@ -84,13 +96,14 @@ p {
     margin-left: 25px;
 }
 
+/* content Class Selectors select all elements with that class */
 .content {
     width: 75%;
     display: inline-block;
     margin-left: 20px;
 }
 
-/*side bar section start from here*/
+/* benefits Class Selectors select all elements with that class */
 
 .benefits {
     margin-right: 20px;
@@ -99,24 +112,26 @@ p {
     float: right;
     width: 20%;
     height: 100%;
+     /* Font-family property specifies a list of fonts to be used in order of priority */
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     background-color: #2589bd;
 }
 
+/* side_bar Id Selectors are unique a unique id to identify an element */
 #side_bar {
     /*** set bottom margin to 32px*/
     margin-bottom: 32px;
     color: #ffffff;
 }
 
-
+/* side_bar h3  Id Selectors are unique a unique id to identify an element */
 #side_bar h3 {
     /*** set bottom margin to 10px*/
     margin-bottom: 10px;
     text-align: center;
 }
 
-
+/* side_bar img Id Selectors are unique a unique id to identify an element */
 #side_bar img {
     display: block;
     margin: 10px auto;
@@ -126,26 +141,30 @@ p {
 
 /****blue box section start from here ******/
 
+
+/* blue_box Id Selectors are unique a unique id to identify an element */
 #blue_box {
     margin-bottom: 20px;
+     /* Sets padding to 50px */
     padding: 50px;
     height: 300px;
+     /* Font-family property specifies a list of fonts to be used in order of priority */
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     background-color: #0072bb;
     color: #ffffff;
 }
 
-/*below are style rules apply all img in the sections*/
+//* blue_box img Id Selectors are unique a unique id to identify an element */
 #blue_box img {
     max-height: 200px;
 }
 
+/* Id Selectors are unique a unique id to identify an element */
 #blue_box h2 {
     margin-bottom: 20px;
+    /* Font-size property sets the size of a font */
     font-size: 36px;
 }
-
-
 
 
 
@@ -154,10 +173,12 @@ p {
 .footer {
     padding: 30px;
     clear: both;
+     /* Font-family property specifies a list of fonts to be used in order of priority */
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     text-align: center;
 }
 
 .footer h2 {
+    /* Font-size property sets the size of a font */
     font-size: 20px;
 }
